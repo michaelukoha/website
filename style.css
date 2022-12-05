@@ -398,12 +398,6 @@ nav .fa-solid{
         margin-right: 20px;
     }
 
-    .contact-left, .contact-right{
-        flex-basis:100%;
-    }
-    .row .resume-col-2, .row .resume-col-1{
-        flex-basis:100%;
-    }
 
     .cvpic{
         width:100%;
@@ -418,7 +412,7 @@ nav .fa-solid{
         scale:40%;
         margin-left: -175px;
         margin-top: -175px;
-        margin-bottom: -225px;
+        margin-bottom: -250px;
         overflow-y: hidden;
         overflow-x: hidden;
     }
