@@ -234,11 +234,10 @@ nav ul li a:hover::after{
     flex-basis:100%;
 }
 
-.resume-col-2 img{
-    height: 50%;
-    width: 50%;
-    border-radius: 15px;
 
+.selfie{
+    scale:65%;
+    margin-top:125px;
 }
 
 .resume-col-1{
