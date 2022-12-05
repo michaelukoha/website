@@ -14,10 +14,34 @@ body{
 
 /* header */
 
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:-60px;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background1.png);
+    background-image: #000000;
+    position:relative;
     background-size: cover;
     background-position: center;
 
@@ -329,6 +353,10 @@ nav .fa-solid{
 @media only screen and (max-width:600px){
     html, body{
         overflow-x: hidden;
+    }
+
+    .hero{
+        content: url();
     }
     #header{
         background-image: url(images/phone-background.png)
