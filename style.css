@@ -417,11 +417,16 @@ nav .fa-solid{
         overflow-x: hidden;
     }
 
+    .copyright{
+        font-size: 3px;
+        width: 25%;
+    }
+
 }
 
 #msg{
     color: #fff;
-    margin-left: -80px;
     display:block;
     font-size: 25px;
+    margin-bottom:40px;
 }
